@@ -7,6 +7,8 @@
  * Return final_prices
  */
 
+final_prices = [];
+
 function calculateFinalPrices() {
   var final_prices = [];
   
@@ -60,3 +62,4 @@ function calculateFinalPrices() {
 }
 
 console.log(calculateFinalPrices());
+final_prices = calculateFinalPrices();
