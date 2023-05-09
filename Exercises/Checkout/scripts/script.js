@@ -58,3 +58,5 @@ function calculateFinalPrices() {
   
   return final_prices;
 }
+
+console.log(calculateFinalPrices());
